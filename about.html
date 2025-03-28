@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif+Hentaigana:wght@200..900&family=Playwrite+US+Modern+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Triodion&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<section class="hero-sec">
+        <div class="top">
+            <header class="header1">
+                <div class="container">
+                    <div class="row d-lg-flex align-items-lg-center">
+                        <div class="col-12 col-lg-5">
+        
+                            <div class="menu d-lg-flex">
+        
+                            <nav class="navbar navbar-expand-lg">
+                                <!-- <div class="container-fluid">
+                                  <a class="navbar-brand" href="#">Home</a>
+                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button> -->
+                                  <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="home.html">Home</a>
+        
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                           
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Pizza Palace</a></li>
+                                            <li><a class="dropdown-item" href="#">Coffee House</a></li>
+                                            <li><a class="dropdown-item" href="#">Gourmet Gateway</a></li>
+                                            <li><a class="dropdown-item" href="#">Flavor Fiesta</a></li>
+                                            <li><a class="dropdown-item" href="#">Epicurean Explorer</a></li>
+                                            <li><a class="dropdown-item" href="#">Epicurean Explorer Dark</a></li>
+                                          </ul>
+                                        </li>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="shop.html">Shop</a>
+        
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                           
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                                            <li><a class="dropdown-item" href="#">Shop Details</a></li>
+                                            <li><a class="dropdown-item" href="#">Shop Details Coffee</a></li>
+                                            <li><a class="dropdown-item" href="#">Cart</a></li>
+                                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+        
+                                          </ul>
+                                        </li>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+        
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                           
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Blog Grid One</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Grid Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Standard</a></li>
+                                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                          </ul>
+                                        </li>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">Pages</a>
+        
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                           
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                                            <li><a class="dropdown-item" href="#">Chefs</a></li>
+                                            <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                                            <li><a class="dropdown-item" href="reservation.html">Reservation</a></li>
+                                            <li><a class="dropdown-item" href="#">Food Menu</a>
+        
+                                              <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">Food Item O1</a></li>
+                                                  <li><a class="dropdown-item" href="#">Food Item O2</a></li>
+                                                  
+                                                </ul>
+                                              </li>
+                                              
+                                            </li>
+                              
+                                          </ul>
+                                        </li>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contacts</a>
+        
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                           
+                                          </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                            <li><a class="dropdown-item" href="#">Contact with Map</a></li>
+                                            
+                                          </ul>
+                                        </li>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </nav>
+                                </div>
+                              
+                              </div>
+                        
+        
+                        <div class="col-12 col-lg-3">
+                            <div class="logo-area">
+                                <img src="images/logo-two.svg">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <div class="icon-area-1">
+                                <div>
+                                  <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                                </div>
+        
+                                <div>
+                                  <i class="fa-regular fa-heart" style="color: #ffffff;"></i>
+                                    </div>
+        
+                                    <div>
+                                      <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                          <div class="rgt d-flex">
+                            <div>
+                              <i class="fa-solid fa-person" style="color: #ffffff;"></i>
+                            </div>
+                            <div>
+        
+                              <h4><a href="#">Sign in</a></h4>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+        
+        
+            </div>
+        
+            </header>
+        
+            <header class="header2">
+        
+        
+              <nav class="navbar navbar-expand-lg bg-body-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/logo-two.svg"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                  </button>
+                  <div class="collapse navbar-collapse py-3" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="home.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Home
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pizza Palace</a></li>
+                            <li><a class="dropdown-item" href="#">Coffee House</a></li>
+                            <li><a class="dropdown-item" href="#">Gourmet Gateway</a></li>
+                            <li><a class="dropdown-item" href="#">Flavor Fiesta</a></li>
+                            <li><a class="dropdown-item" href="#">Epicurean Explorer</a></li>
+                            <li><a class="dropdown-item" href="#">Epicurean Explorer Dark</a></li>
+                          </ul>
+                        </li>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Shop
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                          <li><a class="dropdown-item" href="#">Shop Details</a></li>
+                          <li><a class="dropdown-item" href="#">Shop Details Coffee</a></li>
+                          <li><a class="dropdown-item" href="#">Cart</a></li>
+                          <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Blog Grid One</a></li>
+                          <li><a class="dropdown-item" href="#">Blog Grid Two</a></li>
+                          <li><a class="dropdown-item" href="#">Blog Standard</a></li>
+                          <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="about.html">About</a></li>
+                          <li><a class="dropdown-item" href="#">Chefs</a></li>
+                          <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
+                          <li><a class="dropdown-item" href="reservation.html">Reservation</a></li>
+                          <li><a class="dropdown-item" href="#">Food Menu</a>
+        
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Food Item O1</a></li>
+                                <li><a class="dropdown-item" href="#">Food Item O2</a></li>
+                                
+                              </ul>
+                            </li>
+                            
+                          </li>
+            
+                        </ul>
+                      </li>
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="contact.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Contacs
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                          <li><a class="dropdown-item" href="#">Contact with Map</a></li>
+                          
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </header>
+        
+        </div>
+
+        <div class="bottom">
+            <h1>About Us</h1>
+            <div class="lst-sec d-flex justify-content-center align-items-center">
+                <div>
+                    <h5><a href="home.html">Home</a></h5>
+                </div>
+                <div>
+                    <h5>></h5>
+                </div>
+                <div>
+                    <h5>About Us</h5>
+                </div>
+            </div>
+        </div>
+    
+</section>
+
+
+<div class="sec-1">
+    <div class="container">
+      <div class="row d-lg-flex align-items-lg-center">
+        
+        <div class="col-12 col-lg-6">
+          <div class="left-col">
+            <!-- <div class="first">
+              <img src="images/chef.png">
+            </div> -->
+            <div class="video-img">
+
+              <img src="images/about-3.png">
+              <button id="vid-bttn"><a href="https://www.youtube.com/watch?v=dSP6L6vGDPs" target="_blank">
+                <i class="fa-solid fa-play" style="color: #ffffff;"></i>
+                </a>
+              </button>
+              
+                <!-- <iframe title="vimeo-player" src="https://player.vimeo.com/video/225811446?h=e46c00b75f" width="250" height="200" frameborder="0" allowfullscreen></iframe> -->
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <div class="right-col">
+            <div class="up">
+              <h6>About Us</h6>
+              <h1>Our Journey to Sweet Success. A Tale of Flour and Sugar</h1>
+              <p>Here are many variations of passages of Lorem Ipsum available but majority have suffered alteration in some form from injected humour, or randomized words which don't looking even slightly believable. If you are going have suffered alteration.</p>
+            </div>
+            <div class="down">
+  
+              <div class="list-ceo d-lg-flex justify-content-between">
+              <div class="list">
+                <div class="one d-flex">
+                  <div><i class="fa-regular fa-circle-check" style="color: #FF6347;"></i></div>
+                  <div>
+                    <p>Cozy Ambiance and Savor</p>
+                  </div>
+                </div>
+                <div class="two d-flex">
+                  <div><i class="fa-regular fa-circle-check" style="color: #FF6347;"></i></div>
+                  <div>
+                    <p>Tasty Culinary For Food Lovers</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ceo d-flex align-items-center">
+                <div class="one">
+                  <img src="images/ceo-img.png">
+                </div>
+                <div class="two">
+                  <img src="images/signature.svg">
+                  <p>Founder & CEO</p>
+                </div>
+              </div>
+            </div>
+            <button id="sec-1-bttn">Learn More</button>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="sec-2">
+      <div class="container">
+        <div class="row d-lg-flex">
+          <!-- <div class="sec2-row"> -->
+          <div class="col-12 col-lg-4">
+            <div class="left-col-sec2">
+              <h6>Our Trending</h6>
+              <h1>Fresh & Better Foods For You</h1>
+              <p>There are many variations of passages of Lorem Ipsum form any injected humour, or randomized words which don't look slightly believable.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="right-col-sec2">
+              <div class="owl-carousel owl-theme sec-2-right">
+                <div class="item-1">
+                  <div class="details-area">
+                    <i class="fa-solid fa-fish" style="color: #ffffff;"></i>
+                    <h3>SEAFOOD</h3>
+                    <h2>Salmon Steak</h2>
+                    <div class="line"></div>
+                    <!-- <h4>_</h4> -->
+                  </div>
+                </div>
+                <div class="item-2">
+                  <div class="details-area">
+                    <i class="fa-solid fa-carrot" style="color: #ffffff;"></i>
+                    <h3>VEGETABLES</h3>
+                    <h2>Tomato Salad</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-3">
+                  <div class="details-area">
+                    <i class="fa-solid fa-martini-glass-citrus" style="color: #ffffff;"></i>
+                    <h3>DRINKS</h3>
+                    <h2>Mint Mojito</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-1">
+                  <div class="details-area">
+                    <i class="fa-solid fa-fish" style="color: #ffffff;"></i>
+                    <h3>SEAFOOD</h3>
+                    <h2>Salmon Steak</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <div class="details-area">
+                    <i class="fa-solid fa-carrot" style="color: #ffffff;"></i>
+                    <h3>VEGETABLES</h3>
+                    <h2>Tomato Salad</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-3">
+                  <div class="details-area">
+                    <i class="fa-solid fa-martini-glass-citrus" style="color: #ffffff;"></i>
+                    <h3>DRINKS</h3>
+                    <h2>Mint Mojito</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-1">
+                  <div class="details-area">
+                    <i class="fa-solid fa-fish" style="color: #ffffff;"></i>
+                    <h3>SEAFOOD</h3>
+                    <h2>Salmon Steak</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <div class="details-area">
+                    <i class="fa-solid fa-carrot" style="color: #ffffff;"></i>
+                    <h3>VEGETABLES</h3>
+                    <h2>Tomato Salad</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-3">
+                  <div class="details-area">
+                    <i class="fa-solid fa-martini-glass-citrus" style="color: #ffffff;"></i>
+                    <h3>DRINKS</h3>
+                    <h2>Mint Mojito</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-1">
+                  <div class="details-area">
+                    <i class="fa-solid fa-fish" style="color: #ffffff;"></i>
+                    <h3>SEAFOOD</h3>
+                    <h2>Salmon Steak</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-2">
+                  <div class="details-area">
+                    <i class="fa-solid fa-carrot" style="color: #ffffff;"></i>
+                    <h3>VEGETABLES</h3>
+                    <h2>Tomato Salad</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+                <div class="item-3">
+                  <div class="details-area">
+                    <i class="fa-solid fa-martini-glass-citrus" style="color: #ffffff;"></i>
+                    <h3>DRINKS</h3>
+                    <h2>Mint Mojito</h2>
+                    <div class="line"></div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-3">
+      <div class="container">
+        <h6>Our Experts</h6>
+        <h1>Meet Our Chefs</h1>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="sec-3-col-1">
+              <div class="chefs-detai">
+                <h2>Vincent Sinclair</h2>
+                <p>Chief Master Chef</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="sec-3-col-2">
+                <div class="chefs-detai">
+              <h2>Camila Fernandez</h2>
+              <p>Executive Chef</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="sec-3-col-3">
+              <div class="chefs-detai">
+                <h2>Harrison Grant</h2>
+                <p>Executive Head Chef</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-4">
+      <div class="container">
+        <div class="midle-arae">
+        <h1>Explore Our Fine Decoration</h1>
+        <p>There are many variations of passages of Lorem Ipsum form any injected humour, or randomized words which don't look slightly believable.</p>
+        <button id="sec-4-vid-bttn"><a href="https://www.youtube.com/watch?v=tJlzIJaokVY" target="_blank">
+          <i class="fa-solid fa-play" style="color: #ffffff;"></i>
+        </a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-5">
+      <div class="container">
+        <div class="row d-lg-flex">
+          <div class="col-12 col-lg-5">
+            <div class="sec-5-left-col">
+              <div class="top">
+                <h6>Why Visit Us</h6>
+                <h1>We Provide Organic Food & Best Facilities</h1>
+                <p>Here are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form from injected humour, or randomized words which don't looking even slightly believable. If you are going have suffered</p>
+              </div>
+                <div class="tick-area-1">
+                  <div><i class="fa-regular fa-circle-check" style="color: #FD9900;"></i></div>
+                  <div><p>Cozy Ambiance and Savor</p></div>
+                </div>
+                <div class="tick-area-2">
+                  <div><i class="fa-regular fa-circle-check" style="color: #FD9900;"></i></div>
+                  <div><p>Discover a Haven For Food Lovers</p></div>
+                </div>
+                <button id="sec-5-bttn"><a href="#">Learn More</a></button>
+              
+            </div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="sec-5-right-col">
+              <div class="top">
+                <div class="box">
+                  <img src="images/icon-food-1.svg">
+                  <h2>Quality Ingredients</h2>
+                  <p>Tasteful and seem-less renovation, this home is a unique refreshing.</p>
+                </div>
+
+                <div class="box">
+                  <img src="images/icon-food-2.svg">
+                  <h2>Special Menu</h2>
+                  <p>Tasteful and seem-less renovation, this home is a unique refreshing.</p>
+                </div>
+              </div>
+              <div class="bttm">
+                <div class="box">
+                  <img src="images/icon-food-3.svg">
+                  <h2>Best Dining</h2>
+                  <p>Tasteful and seem-less renovation, this home is a unique refreshing.</p>
+                </div>
+
+                <div class="box">
+                  <img src="images/icon-food-1.svg">
+                  <h2>Free WIFI Access</h2>
+                  <p>Tasteful and seem-less renovation, this home is a unique refreshing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <div class="fst">
+              <h2>15+</h2>
+              <p>Years Experience</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="scnd">
+              <h2>5+</h2>
+              <p>Master Chefs</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="thrd">
+              <h2>200+</h2>
+              <p>Daily Visitors</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="frth">
+              <h2>35+</h2>
+              <p>Achievements</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="sec-7">
+      <div class="container">
+        <div class="top">
+          <h6>Our Review</h6>
+          <h1>What Client Says</h1>
+        </div>
+        <div class="card">
+          <img src="images/card-1.png" id="crd-img">
+          <p>Here are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form from injected humour, or randomized words which don't looking even slightly believable. If you are going have suffered</p>
+          <h2>Amanda Morton</h2>
+          <h5>Head Manager, Slack</h5>
+          <img src="images/5_stars.png" id="str-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-8">
+      <div class="images">
+        <div class="owl-carousel owl-theme insta-area">
+          <div class="item">
+            <a href="#"><img src="images/instagram-1.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-2.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-3.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-4.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-5.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-6.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-1.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-2.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-3.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-4.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-5.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-6.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-1.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-2.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-3.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-4.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-5.png"></a>
+          </div>
+          <div class="item">
+            <a href="#"><img src="images/instagram-6.png"></a>
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+    <footer class="ft">
+      <div class="container">
+        <div class="row fst-row d-lg-flex">
+          <div class="col-12 col-lg-2">
+            <div class="footer-fst">
+            <h2>Product</h2>
+            <ul>
+              <li><a href="#">Breakfast</a></li>
+              <li><a href="#">Lunch</a></li>
+              <li><a href="#">Desserts</a></li>
+              <li><a href="#">Dinner</a></li>
+              <li><a href="#">Book a table</a></li>
+              <li><a href="#">Our chefs</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div class="footer-scnd">
+            <h2>Information</h2>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div class="footer-thrd">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Menu</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Epicurean</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="footer-lst">
+              <div class="top">
+                <p>Subscribe</p>
+                <h1>Our News letter</h1>
+                <p>To Get Regular Update</p>
+              </div>
+    
+              <div class="down">
+                <form>
+                  <input type="email" id="ft-mail" name="ft-mail" placeholder="Enter your mail">
+                  <input type="submit" id="ft-sub" name="ft-sub" placeholder="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <div class="row lst-row d-lg-flex align-items-lg-center">
+      <div class="col-12 col-lg-4">
+        <div class="ft-logo-area">
+          <img src="images/logo-two.svg">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="ft-middle-area justify-content-center">
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="ft-icon-area justify-content-center">
+          <div>
+            <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      </div>
+    </footer>
+    
+
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<script>
+  $('.insta-area').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:7
+        }
+    }
+})
+</script>
+
+
+<script>
+  $('.sec-2-right').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1,
+            autoplay:true
+        },
+        600:{
+            items:1,
+            autoplay:true
+        },
+        1000:{
+            items:3,
+            nav:true
+        }
+    }
+})
+</script>
+
+</body>
+</html>
